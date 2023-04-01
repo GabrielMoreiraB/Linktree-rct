@@ -1,0 +1,17 @@
+.submit-form{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;;
+    background-color: #001858;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 16px;
+    margin-top: 16px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.submit-form:hover{
+    background-color: #ffffff;
+    color: #001858;
+}

@@ -33,6 +33,10 @@
     box-sizing: border-box;
 }
 
+.img-container{
+    height: 350px;
+}
+
 .img-container img{
     border:6px solid #001858;
     width: 300px;

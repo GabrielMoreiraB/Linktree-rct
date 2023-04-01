@@ -1,11 +1,10 @@
 import Link from '../Link';
 import './Botao.css';
 
-const Botao = (props) => {
+const Botao = () => {
     return (
-        <div className='botoes-container'>
-            {props.botoes.map(botao => <Link key={botao.link} nome={botao.nome} link={botao.link} />)}
-        </div>
+        <input type="submit" className='submit-form' value="Add new Link" />
+       
     )
 }
 

@@ -25,7 +25,7 @@ const AddLink =(props) => {
                 onChange={(evento) => {props.aoAlteradoLink(evento.target.value)}}
                 />
             </div>
-            <button className='submit-form'>Add new Link</button>
+           
         </>
 
 

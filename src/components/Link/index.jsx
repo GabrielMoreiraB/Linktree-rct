@@ -1,8 +1,11 @@
 import './Link.css';
 
-const Link = ({link, nome}) => {
+const Link = ({botoes}) => {
+    console.log(botoes)
     return (
-        <a href={link}>{nome}</a>
+        <div className='botoes-container'>
+            {botoes.map(botao => <a href={botao.link} key={botao.id} target='blank'> <img src="/img/linksimbol.svg" alt="" /> {botao.nome} <img src="/img/linksimbol.svg" alt="" /></a>)}
+        </div>
     )
 }
 

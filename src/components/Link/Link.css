@@ -1,0 +1,23 @@
+.botoes-container{
+    width: 30vw;
+    margin: 3em auto ;
+}
+
+.botoes-container a{
+    width: 100%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #001858;
+    background-color: #8BD3DD;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    padding: 0.5em;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.botoes-container a:hover{
+    background-color: #5d9198;
+    color: #ffffff;
+}
